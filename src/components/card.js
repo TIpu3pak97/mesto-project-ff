@@ -14,7 +14,7 @@ export function createCard(cardTitle, cardImage, deletedCard) {
         return cardElement;
 };
 
-export const removeCard = removeCard = (event) => {
+export const removeCard = (event) => {
     const item = event.target.closest('.card');
     item.remove();
 };
